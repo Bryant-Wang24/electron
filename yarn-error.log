@@ -1,0 +1,31 @@
+Arguments: 
+  D:\download\nvm\node.exe D:\download\bin\yarn.js add --dev electron
+
+PATH: 
+  D:\download\Git\mingw64\bin;D:\download\Git\usr\bin;C:\Users\wangqiushuang\bin;F:\vm\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;D:\download\bin;D:\download\Git\cmd;D:\download;D:\download\nvm;C:\Program Files\nodejs;D:\download\go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;F:\mongo\bin;C:\Users\wangqiushuang\go\pkg\mod\github.com\pilu\fresh@v0.0.0-20190826141211-0fa698148017\runner;C:\Users\wangqiushuang\AppData\Local\Microsoft\WindowsApps;C:\Users\wangqiushuang\AppData\Local\Yarn\bin;D:\download\Microsoft VS Code\bin;C:\Users\wangqiushuang\Downloads\cmder;C:\Users\wangqiushuang\AppData\Roaming\npm;D:\下载\WebStorm 2021.1.1\bin;D:\download\nvm;C:\Program Files\nodejs;C:\Users\wangqiushuang\go\bin;C:\Users\wangqiushuang\go\pkg\mod\github.com\pilu\fresh@v0.0.0-20190826141211-0fa698148017\runner;F:\MySQL\mysql-5.7.38-winx64\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.19.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EBUSY: resource busy or locked, unlink 'F:\pj\electron\node_modules\electron\dist\v8_context_snapshot.bin'
+
+npm manifest: 
+  {
+    "name": "electron",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

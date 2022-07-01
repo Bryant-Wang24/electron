@@ -1,0 +1,17 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^19.0.6"
+  },
+  "scripts": {
+    "start": "electron .",
+    "test": "nodemon --watch main.js --exec electron ."
+  },
+  "dependencies": {
+    "@electron/remote": "^2.0.8",
+    "nodemon": "^2.0.18"
+  }
+}
