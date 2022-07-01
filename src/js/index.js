@@ -14,7 +14,8 @@ console.log('newWindow',newWindow)
 //    点击a跳转
 const allA = document.querySelectorAll('a')
 allA.forEach(item=>{
-    item.onclick = function (){
+    item.onclick = function (e){
+        e.preventDefault()
         shell.openExternal(item.href) //不在渲染进程跳转，而是打开浏览器跳转
     }
 })
